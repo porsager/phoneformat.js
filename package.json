@@ -1,0 +1,9 @@
+{
+  "name": "phoneformat",
+  "version": "0.1.0",
+  "description": "phoneformat for npm",
+  "main": "./PhoneFormat.js",
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
