@@ -483,8 +483,8 @@ function countryCodeToName(countryCode) {
         }
 }
 
-if (typeof exports == 'object' && exports) {
-    exports = {
+if(typeof module !== 'undefined' && module.exports && typeof require !== 'undefined') {
+    module.exports = {
         countryForE164Number : countryForE164Number,
         formatNumberForMobileDialing : formatNumberForMobileDialing,
         isValidNumber: isValidNumber,
